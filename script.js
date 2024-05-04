@@ -27,11 +27,16 @@ const digitalClock = () =>{
   minutesEl.textContent = m;
   secondsEl.textContent = s;
   
+ // setTimeout( () => {
+   // digitalClock();
+ // },1000);
+  
+};
+
   setTimeout( () => {
     digitalClock();
   },1000);
-};
-digitalClock();
+//digitalClock();
 
 /*d = (d === 0) ? "Sunday," : d;
 d = (d === 1) ? "Monday," : d;
