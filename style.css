@@ -18,6 +18,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction:column ;
+  background-color: skyblue;
   background: url("nature.jpg");
   background-repeat: no-repeat;
   background-position: center;
